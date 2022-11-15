@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    /* background: rgb(49, 165, 136); */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0, 0, 0);
+    margin: 50px;
+    
+}
+
+.container .leftsec{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    /* border-radius: 10px 0 0 10px; */
+}
+ 
+/* profile section start  */
+
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(198, 186, 186, 0.2);
+}
+
+.profiletext .img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* .profiletext .img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.profiletext h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.profiletext h2 span{
+    font-size: 0.6em;
+    font-weight: 500;
+    color: orange;
+}
+
+/* profile section end  */
+
+/* contact section start  */
+
+.contactinfo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(198, 186, 186, 0.2);
+
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactinfo ul{
+    position: relative;
+}
+
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactinfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contactinfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+/* contact section end  */
+
+/* Education section start  */
+
+.educationinfo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(198, 186, 186, 0.2);
+
+}
+.educationinfo ul li{
+
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    
+}
+
+.educationinfo  h4{
+    color: #03a9f4;
+}
+.educationinfo  h5{
+    color:#fff;
+    padding-top: 5px;
+}
+
+/* educational info ends  */
+
+/* Skills sec starts  */
+
+.skillsec{
+    padding-top: 20PX;
+    padding-bottom: 20px;
+}
+
+.skillbox{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+}
+.skillbox .box{
+    width: auto;
+    height: auto;
+    background-color: #03a9f4;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 4px;
+    font-size: 0.87em;
+    font-weight:bold;
+    color: #fff;
+    
+    
+}

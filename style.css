@@ -102,6 +102,11 @@ body{
     position: relative;
 }
 
+.contactinfo a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .contactinfo ul li{
     position: relative;
     list-style: none;
@@ -136,7 +141,7 @@ body{
     position: relative;
     list-style: none;
     margin: 10px 0;
-    cursor: pointer;
+    
     
 }
 

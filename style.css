@@ -25,19 +25,19 @@ body{
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 900px;
+    min: height 900px; ;
     /* background: rgb(49, 165, 136); */
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgb(0, 0, 0);
-    margin: 50px;
+    /* margin: 50px; */
     
 }
 
 .container .leftsec{
     position: relative;
     background: #003147;
-    padding: 40px;
+    padding: 30px;
     /* border-radius: 10px 0 0 10px; */
 }
  /* container properties end  */
@@ -305,7 +305,7 @@ h3{
     
     color: rgb(96, 94, 94);
     line-height: 1.5em;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bolder;
 }
 .para a{
@@ -316,24 +316,84 @@ h3{
 a:hover{
     color:#59768e;
 }
-
+/* programming language section start  */
 .title3{
     color: #003147;
     text-transform: uppercase;
-    letter-spacing: 3.6px;
+    letter-spacing: 3px;
+    font-size: 24px;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 2px;
+    padding-top: 44px;
+    padding-bottom: 10px;
     position: relative;
 }
 
-.title3::after{
+/* .title3::after{
     top: 50%;
     content: "";
     position: absolute;
-    width: 60%;
+    width: 57%;
     height: .1rem;
     background-color: #a1a5a7;
     border-radius: 1px;
     right: 0;
     transform: translateY(-50%);
+} */
+
+.bar{
+    /* padding-top: rem; */
+}
+.programming h3 .bar{
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16px;
+    
+    
+}
+
+.progress-bar{
+    background:#a1a5a76c;
+    width: 220px;
+    height: 7px;
+    border-radius: 5px;
+    
+}
+.java {
+    height: 7px;
+    border-radius: 5px;
+    width: 88%;
+    background: #03a9f4;
+    
+}
+.python {
+    height: 7px;
+    border-radius: 5px;
+    width: 70%;
+    background: #03a9f4;
+}
+
+.c {
+    height: 7px;
+    border-radius: 5px;
+    width: 75%;
+    background: #03a9f4;
+}
+.cpp{
+    height: 7px;
+    border-radius: 5px;
+    width: 60%;
+    background: #03a9f4;
+}
+
+.left1{
+    position: relative;
+    
+}
+
+.time2{
+   display: flex;
+}
+.right1{
+    
 }

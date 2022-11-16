@@ -1,5 +1,7 @@
+/* applying google font "popins" */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap');
 
+/* applying outer container properties  */
 *{
     margin: 0;
     padding: 0;
@@ -15,11 +17,15 @@ body{
     min-height: 100vh;
 }
 
+/* outer contaoner end  */
+
+/* applying properties for container  */
+
 .container{
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 1000px;
+    min-height: 900px;
     /* background: rgb(49, 165, 136); */
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -34,7 +40,8 @@ body{
     padding: 40px;
     /* border-radius: 10px 0 0 10px; */
 }
- 
+ /* container properties end  */
+
 /* profile section start  */
 
 .profiletext{
@@ -76,7 +83,7 @@ body{
 .profiletext h2 span{
     font-size: 0.6em;
     font-weight: 500;
-    color: orange;
+    color: rgb(226, 164, 48);
 }
 
 /* profile section end  */
@@ -180,4 +187,153 @@ body{
     font-weight:bolder;
     letter-spacing: 0.9px;
     
+}
+
+/* Skill section End  */
+
+.container .rightsec {
+    position: relative;
+    background: #fff;
+    padding: 40px;    
+}
+
+/* profile section start  */
+
+.about{
+    margin-bottom: 30px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    font-weight: 600;
+    position: relative;
+}
+
+.title2::after{
+    top: 50%;
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: .1rem;
+    background-color: #a1a5a7;
+    border-radius: 1px;
+    right: 0;
+    transform: translateY(-50%);
+}
+b{
+    color: rgb(0, 0, 0);
+}
+.about-sec{
+    padding-top: 1.2rem;
+    color: rgb(110, 109, 109);
+    line-height: 1.5em;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+/* profile section end  */
+
+ /* project section  */
+.project{
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    color: #003147;
+}
+
+.timeline{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+h3{
+    color: #59768e;
+    padding-top: 2rem;
+    font-size: 1.10rem;
+    text-transform: uppercase;
+}
+.year{
+    padding-top: .3rem
+    ;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #a1a5a7;
+    /* margin-left: 16px; */
+    
+}
+.right-sec{
+    border-left: 1px solid rgba(145, 167, 206, 0.5);
+    margin-top: 2rem;
+    margin-left: -55px;
+    padding-left: 1.2rem;
+}
+.circle{
+    background-color: rgb(214, 209, 209);
+    height: 11.4px;
+    width: 12px;
+    border-radius: 50%;
+    margin-left: -25.3px;
+    
+}
+.circle1{
+    background-color: rgb(214, 209, 209);
+    height: 11.4px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:50px ;
+    margin-left: -25.3px;
+    
+}
+.circle2{
+    background-color: rgb(214, 209, 209);
+    height: 11.4px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:91px ;
+    margin-left: -25.3px;
+    
+}
+.para{
+    
+    color: rgb(96, 94, 94);
+    line-height: 1.5em;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.para a{
+    text-decoration: none;
+    color: #03a9f4;
+    cursor: pointer;
+}
+a:hover{
+    color:#59768e;
+}
+
+.title3{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    font-weight: 600;
+    margin-top: 20px;
+    position: relative;
+}
+
+.title3::after{
+    top: 50%;
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: .1rem;
+    background-color: #a1a5a7;
+    border-radius: 1px;
+    right: 0;
+    transform: translateY(-50%);
 }
